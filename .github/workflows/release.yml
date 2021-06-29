@@ -21,3 +21,4 @@ jobs:
       run: |
         go install github.com/tamalsaha/go-install-gh-actions-demo@v0.0.1
         which go-install-gh-actions-demo
+        sudo mv $(go env GOPATH)/bin/* /usr/local/bin

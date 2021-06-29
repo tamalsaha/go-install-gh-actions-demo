@@ -20,7 +20,7 @@ jobs:
     - name: Build
       run: |
         set -x
-        go install github.com/tamalsaha/go-install-gh-actions-demo@v0.0.3+v2021.06.30
+        go install github.com/tamalsaha/go-install-gh-actions-demo@v0.0.3+v2021.06.31
         which go-install-gh-actions-demo
         ls -l $(go env GOPATH)/bin
         sudo mv $(go env GOPATH)/bin/* /usr/local/bin

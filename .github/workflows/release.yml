@@ -24,3 +24,4 @@ jobs:
         which go-install-gh-actions-demo
         ls -l $(go env GOPATH)/bin
         sudo mv $(go env GOPATH)/bin/* /usr/local/bin
+        which go-install-gh-actions-demo

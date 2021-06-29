@@ -1,7 +1,8 @@
 package lib
 
-import "github.com/tamalsaha/go-install-gh-actions-demo/lib"
+import "fmt"
 
 func Print() {
-	lib.Print()
+	fmt.Println("go install test ====")
+	fmt.Println("v0.0.3+v2021.06.30")
 }
